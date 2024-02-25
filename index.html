@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Count Button Clicks</title>
+        <link rel="stylesheet" href="./styles.css" />
+    </head>
+    <body>
+        <div class="layout">
+            <div class="header">Header</div>
+            <div class="main">
+                <div class="email_field">
+                    <label for="emailField">Email Address: </label>
+                    <input type="email" name="emailField" id="emailField" />
+                </div>
+                <div class="check_btn">
+                    <button type="submit" onclick="validateEmail('emailField')">
+                        Submit
+                    </button>
+                </div>
+            </div>
+            <div class="footer">Footer</div>
+        </div>
+    </body>
+    <script src="./index.js"></script>
+</html>
